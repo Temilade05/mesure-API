@@ -28,5 +28,9 @@ public class MaleMeasurement {
     private float bottom;
     private float trouserLength;
 
+    private String note;
 
+    public String get_id() {
+        return _id.toHexString();
+    }
 }

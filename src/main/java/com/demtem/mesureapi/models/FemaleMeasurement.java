@@ -24,6 +24,9 @@ public class FemaleMeasurement {
     private float kneeMeasurement;
     private float ankleMeasurement;
 
-
     private String note;
+
+    public String get_id() {
+        return _id.toHexString();
+    }
 }

@@ -16,4 +16,8 @@ public class Client {
     private String email;
     private String phoneNumber;
     private Gender gender;
+
+    public String get_id() {
+        return _id.toHexString();
+    }
 }
